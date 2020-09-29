@@ -581,7 +581,7 @@ public class ScheduleViewerExtended extends PageSnippet implements ScheduleViewe
 			List<String> items = new ArrayList<>(opts.keySet());
 			multiSelectOptions = new MultiSelectByButtons(items, "msroom", page,
 					ButtonData.BOOTSTRAP_GREEN, ButtonData.BOOTSTRAP_LIGHTGREY);
-			multiSelectOptions.setDefaultSelectedItemd(items);
+			multiSelectOptions.setDefaultSelectedItems(items);
 		} else
 			optionsCheckbox.setDefaultList(opts);
 	}
